@@ -21,6 +21,7 @@
 		8F090A1E192453EB003905A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F090A00192453EB003905A8 /* UIKit.framework */; };
 		8F090A26192453EB003905A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F090A24192453EB003905A8 /* InfoPlist.strings */; };
 		8F090A28192453EB003905A8 /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F090A27192453EB003905A8 /* GIT_TestTests.m */; };
+		8F090A33192457B3003905A8 /* JTMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F090A32192457B3003905A8 /* JTMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8F090A23192453EB003905A8 /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		8F090A25192453EB003905A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F090A27192453EB003905A8 /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		8F090A31192457B3003905A8 /* JTMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTMTest.h; sourceTree = "<group>"; };
+		8F090A32192457B3003905A8 /* JTMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				8F090A0E192453EB003905A8 /* Main.storyboard */,
 				8F090A11192453EB003905A8 /* JTMViewController.h */,
 				8F090A12192453EB003905A8 /* JTMViewController.m */,
+				8F090A31192457B3003905A8 /* JTMTest.h */,
+				8F090A32192457B3003905A8 /* JTMTest.m */,
 				8F090A14192453EB003905A8 /* Images.xcassets */,
 				8F090A03192453EB003905A8 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				8F090A0D192453EB003905A8 /* JTMAppDelegate.m in Sources */,
 				8F090A09192453EB003905A8 /* main.m in Sources */,
 				8F090A13192453EB003905A8 /* JTMViewController.m in Sources */,
+				8F090A33192457B3003905A8 /* JTMTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
